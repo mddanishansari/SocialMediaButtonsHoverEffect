@@ -1,5 +1,5 @@
 # SocialMediaButtonsHoverEffect
-Source code for the Social Media Buttons Hover Effect - Speed Coding | HTML &amp; CSS Only | Speed Coding | YouTube Video
+Source code for the Social Media Buttons Hover Effect - Speed Coding | HTML &amp; CSS Only | YouTube Video
 
 ### This repository contains source code for the follwing YouTube video (click on image to watch the video)
 [![Preview](preview.gif)](https://www.youtube.com/watch?v=rwlyxhLXtRU)
