@@ -1,0 +1,112 @@
+body{
+    font-family: 'Ubuntu';
+    background: #009397;
+}
+
+.button-container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.facebook{
+    height: 90px;
+    width:90px;
+    float: left;
+}
+
+.twitter{
+    height: 90px;
+    width:90px;
+    margin: 0px 15px;
+    float: left;
+}
+
+.instagram{
+    height: 90px;
+    width:90px;
+    float: left;
+}
+
+.button{
+    height: 90px;
+    width:90px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.front{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+.facebook:hover .front{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    transform: translate(-25%, -25%);
+    transition: 0.4s;
+}
+
+.twitter:hover .front{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    transform: translate(-25%, -25%);
+    transition: 0.4s;
+}
+
+.instagram:hover .front{
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+    transform: translate(-25%, -25%);
+    transition: 0.4s;
+}
+
+
+.back{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.facebook .back{
+    background: #344e89;
+}
+
+.twitter .back{
+    background: #00a4eb;
+}
+
+.instagram .back{
+    background: linear-gradient(to bottom right, #fccc63, #bc2a8d);
+}
+
+.front-text{
+    color:#adadad;
+    font-size: 12px;
+    margin-top:12px;
+}
+
+.back-text{
+    color:white;
+    font-size: 12px;
+    margin: 6px;
+}
+
+.fab{
+    font-size: 22px;
+}
+
+.fa-facebook-f{
+    color: #344e89;
+}
+
+.fa-twitter{
+    color:#00a4eb;
+}
+
+.fa-instagram{
+    color:#bc2a8d;
+}
